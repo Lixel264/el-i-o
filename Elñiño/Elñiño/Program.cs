@@ -34,7 +34,7 @@ namespace Elñiño
                         if (cedula == "000-1234567-0" && contraseña == 2604)
                         {
                             estado = true;
-                            Console.WriteLine("\nBienvenido: Stuart Estévez.\n" + "\nUsername: 000-1234567-0." + "\nEstado: Activo. \n" + "Rol: Supervisor. \n" + "Fecha de creación: 26/4/2001. \n");
+                            Console.WriteLine("\nBienvenido: Stuart Estévez.\n" + "\nUsername: 000-1234567-0." + "\nClave: 2604." + "\nEstado: Activo. \n" + "Rol: Supervisor. \n" + "Fecha de creación: 26/4/2001. \n");
                             Console.WriteLine("\nSi quieres salir pon una S");
                             salir = Console.ReadLine();
                             if (salir == "s" || salir == "S")
@@ -50,7 +50,7 @@ namespace Elñiño
                             {
                                 estado = false;
                                 Console.WriteLine("\nEsta cuenta está inactiva, vuelve a validar otra cuenta. \n");
-                                Console.WriteLine("\nSi quieres salir pon una S");
+                                Console.WriteLine("\nPresiona S para salir");
                                 salir = Console.ReadLine();
                                 if (salir == "s" || salir == "S")
                                 {
@@ -64,7 +64,7 @@ namespace Elñiño
                                 if (cedula == "222-1234567-2" && contraseña == 2703)
                                 {
                                     estado = true;
-                                    Console.WriteLine("\nBienvenido: Adrian Estévez.\n" + "\nUsername: 111-1234567-1." + "\nEstado: Activo. \n" + "Rol: Vendedor. \n" + "Fecha de creación: 27/3/2001. \n");
+                                    Console.WriteLine("\nBienvenido: Adrian Estévez.\n" + "\nUsername: 111-1234567-1." + "\nClave: 2703." + "\nEstado: Activo. \n" + "Rol: Vendedor. \n" + "Fecha de creación: 27/3/2001. \n");
                                     Console.WriteLine("\nSi quieres salir pon una S");
                                     salir = Console.ReadLine();
                                     if (salir == "s" || salir == "S")
