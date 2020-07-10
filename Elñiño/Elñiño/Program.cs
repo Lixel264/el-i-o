@@ -21,37 +21,31 @@ namespace Elñiño
                     Console.Write("Ingrese su contraseña: ");
                     contraseña = int.Parse(Console.ReadLine());
                 }
-                if (cedula != "000-1234567-0" && contraseña != 2604)
+                if (cedula == "000-1234567-0" && contraseña == 2604)
                 {
-                    Console.WriteLine("\nEl número de cédula y/o contraseña es incorrecta. \n" + "Intentalo de nuevo. \n");
-                    continue;
+                    Console.WriteLine("\nBienvenido Stuart Estévez. *SUPERVISOR* \n");
                 }
-                else if (cedula == "000-1234567-0" && contraseña == 2604)
+                else
                 {
-                    Console.WriteLine("\nBienvenido Stuart Estévez. \n");
-                    continue; 
+
+                    if (cedula == "111-1234567-1" && contraseña == 3103)
+                    {
+                        Console.WriteLine("\nBienvenido Steven Estévez. *ADMINISTRADOR* \n");
+                    }
+                    else
+                    {
+
+                        if (cedula == "222-1234567-2" && contraseña == 2703)
+                        {
+                            Console.WriteLine("\nBienvenido Adrian Estévez. *VENDEDOR* \n");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nEl número de cédula y/o contraseña es incorrecta. \n" + "Intentalo de nuevo. \n");
+                        }
+                    }
                 }
-                if (cedula != "111-1234567-1" && contraseña != 3103)
-                {
-                    Console.WriteLine("\nEl número de cédula y/o contraseña es incorrecta. \n" + "Intentalo de nuevo. \n");
-                    continue; 
-                }
-                else if (cedula == "111-1234567-1" && contraseña == 3103)
-                {
-                    Console.WriteLine("\nBienvenido Steven Estévez. \n");
-                    continue; 
-                }
-                if (cedula != "222-1234567-2" && contraseña != 2703)
-                {
-                    Console.WriteLine("\nEl número de cédula y/o contraseña es incorrecta. \n" + "Intentalo de nuevo. \n");
-                    continue; 
-                }
-                else if (cedula == "222-1234567-2" && contraseña == 2703)
-                {
-                    Console.WriteLine("\nBienvenido Adrian Estévez. \n");
-                    continue; 
-                }
-            } while (cedula != "000-1234567-0" && contraseña != 2604 || cedula != "111-1234567-1" && contraseña != 3103 || cedula != "222-1234567-2" && contraseña != 2703);
+            } while (contraseña == 0);
 
         }
     }
