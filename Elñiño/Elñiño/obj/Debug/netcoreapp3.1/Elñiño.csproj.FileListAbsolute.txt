@@ -1,0 +1,13 @@
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.exe
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.deps.json
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.runtimeconfig.json
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.runtimeconfig.dev.json
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.dll
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\bin\Debug\netcoreapp3.1\Elñiño.pdb
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.csprojAssemblyReference.cache
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.csproj.CoreCompileInputs.cache
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.AssemblyInfoInputs.cache
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.AssemblyInfo.cs
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.dll
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.pdb
+C:\Users\WANDA\Desktop\C#\Elñiño\Elñiño\obj\Debug\netcoreapp3.1\Elñiño.genruntimeconfig.cache
